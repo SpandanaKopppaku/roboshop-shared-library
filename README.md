@@ -1,7 +1,5 @@
 # roboshop-shared-library
 
-
-
 This repository contains all the common patterns of the CI and CD pipelines of the RoboSHop e-commerce project and it helps in avoiding the repetivite code and make us close to DRY approach.
 
 As Pipeline is adopted for more and more projects in an organization, common patterns are likely to emerge. Oftentimes it is useful to share parts of Pipelines between various projects to reduce redundancies and keep code "DRY" [1].
