@@ -1,7 +1,8 @@
-roboshop-shared-library
+# roboshop-shared-library
 
 This repository contains all the common patterns of the CI and CD pipelines of the RoboSHop e-commerce project and it helps in avoiding the repetivite code and make us close to DRY approach.
 
+...
 As Pipeline is adopted for more and more projects in an organization, common patterns are likely to emerge. Oftentimes it is useful to share parts of Pipelines between various projects to reduce redundancies and keep code "DRY" [1].
 
 Pipeline has support for creating "Shared Libraries" which can be defined in external source control repositories and loaded into existing Pipelines.
@@ -30,4 +31,5 @@ What vars has ?
 Reference : https://www.jenkins.io/doc/book/pipeline/shared-libraries/
 
 When to call a function along with file name and when can we access it directly.
-*** When you can to access a function in a file sample, and if you're referring from somewhere, then you call it as sample.functionName() *** When you can to access a function in a file sample, and if you're referring from the same file, then you call it as functionName()
+*** When you can to access a function in a file sample, and if you're referring from somewhere, then you call it as sample.functionName() *** When you can to access a function in a file sample, and if you're referring from the same file, then you call it as 
+functionName()
