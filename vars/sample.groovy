@@ -1,7 +1,7 @@
 //Declaring a function info
 def info(message) {
     echo "Hai, I am a function whose name is info"
-    echo "The value of the  "
+    echo "I am printing the value of the message is ${message}"
 
 }
 
