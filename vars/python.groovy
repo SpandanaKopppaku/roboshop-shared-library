@@ -23,7 +23,7 @@ pipeline{
         }
         stage("Code Compile"){
           steps{
-            sh "mvn clean compile"
+            sh "npm install"
             }  
             
         }
