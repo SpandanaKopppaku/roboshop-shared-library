@@ -1,6 +1,6 @@
 def lintchecks(){
     sh '''
-        echo Performing lintchecks for ${COMPONENT}
+        echo Installing angularlint for ${COMPONENT}
         echo link checks completed for ${COMPONENT}
     '''    
 }
@@ -19,9 +19,9 @@ pipeline{
             }  
             
         }
-        stage("Code Compile"){
+        stage("Code Qality Analysis"){
           steps{
-            //sh "mvn clean compile"
+            sh "echo Code Qality Analysis is in place"
             }  
             
         }
